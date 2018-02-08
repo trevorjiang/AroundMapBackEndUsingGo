@@ -8,7 +8,7 @@ import (
 	"log"
 	"strconv"
 	"reflect"
-	//"github.com/pborman/uuid"
+	"github.com/pborman/uuid"
 	"cloud.google.com/go/bigtable"
 	"context"
 	"github.com/pborman/uuid"
