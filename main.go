@@ -11,7 +11,6 @@ import (
 	"github.com/pborman/uuid"
 	"cloud.google.com/go/bigtable"
 	"context"
-	"github.com/pborman/uuid"
 )
 
 type Location struct {
@@ -34,7 +33,7 @@ const (
 	PROJECT_ID = "coastal-pointer-194222"
 	BT_INSTANCE = "around-post"
 	// Needs to update this URL if you deploy it to cloud.
-	ES_URL = "http://35.229.32.185:9200"
+	ES_URL = "http://35.231.94.226:9200"
 )
 
 func main() {
